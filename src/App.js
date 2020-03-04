@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <input type="text"/>
       </header>
+       <main>
+        <div className="info">
+            <div className="city">Łódź</div>
+            <div className="date">Monday 04 march 2020</div>
+            <div className="temp">27&#8451;</div>
+            <div className="weather">Sunny</div>
+            <div className="high-low-temp">-133/27</div>
+        </div>
+       </main>
     </div>
   );
 }
