@@ -13,7 +13,7 @@ function App() {
 
 
     const API = {
-      key: "8ffbd7f64ff3a63da2914cd9fdc92da3",
+      key: "20e136361031ccb2e1f943847a36b5c7",
       url: "https://api.openweathermap.org/data/2.5/",
     }
 
