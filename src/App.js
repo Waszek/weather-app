@@ -14,7 +14,7 @@ function App() {
 
     const API = {
       key: "20e136361031ccb2e1f943847a36b5c7",
-      url: "https://api.openweathermap.org/data/2.5/",
+      url: "https://api.openweathermap.org/data/3.0/",
     }
 
     useEffect(() => {
